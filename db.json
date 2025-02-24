@@ -1,0 +1,156 @@
+{
+  "jobApplications": [
+    {
+      "id": "2",
+      "company": "Microsoft",
+      "position": "Frontend Developer",
+      "status": "applied",
+      "applicationDate": "2025-02-05",
+      "lastUpdated": "2025-02-14",
+      "notes": "Had first-round interview, waiting for feedback",
+      "link": "https://careers.microsoft.com/job456",
+      "location": "Seattle, WA",
+      "contact": {
+        "name": "Jane Smith",
+        "email": "jane.smith@microsoft.com",
+        "phone": "987-654-3210"
+      }
+    },
+    {
+      "id": "3",
+      "company": "Amazon",
+      "position": "Backend Engineer",
+      "status": "Rejected",
+      "applicationDate": "2025-01-25",
+      "lastUpdated": "2025-02-02",
+      "notes": "Received rejection email",
+      "link": "https://amazon.jobs/job789",
+      "location": "New York, NY",
+      "contact": {
+        "name": "Michael Johnson",
+        "email": "michael.johnson@amazon.com",
+        "phone": "555-123-4567"
+      }
+    },
+    {
+      "id": "4",
+      "company": "Meta",
+      "position": "Full Stack Developer",
+      "status": "Wishlist",
+      "applicationDate": "2025-02-18",
+      "lastUpdated": "2025-02-18",
+      "notes": "Interested but haven't applied yet",
+      "link": "https://www.metacareers.com/job567",
+      "location": "Menlo Park, CA",
+      "contact": {
+        "name": "Sarah Lee",
+        "email": "sarah.lee@meta.com",
+        "phone": "555-234-5678"
+      }
+    },
+    {
+      "id": "5",
+      "company": "Netflix",
+      "position": "UI/UX Designer",
+      "status": "Applied",
+      "applicationDate": "2025-02-08",
+      "lastUpdated": "2025-02-09",
+      "notes": "Reached out to recruiter on LinkedIn",
+      "link": "https://jobs.netflix.com/job111",
+      "location": "Los Angeles, CA",
+      "contact": {
+        "name": "Emily Davis",
+        "email": "emily.davis@netflix.com",
+        "phone": "555-345-6789"
+      }
+    },
+    {
+      "id": "6",
+      "company": "Spotify",
+      "position": "Data Scientist",
+      "status": "Interview",
+      "applicationDate": "2025-01-30",
+      "lastUpdated": "2025-02-10",
+      "notes": "Second-round interview scheduled",
+      "link": "https://www.spotifyjobs.com/job222",
+      "location": "Stockholm, Sweden",
+      "contact": {
+        "name": "David Kim",
+        "email": "david.kim@spotify.com",
+        "phone": "555-456-7890"
+      }
+    },
+    {
+      "id": "7",
+      "company": "Apple",
+      "position": "DevOps Engineer",
+      "status": "Applied",
+      "applicationDate": "2025-02-12",
+      "lastUpdated": "2025-02-13",
+      "notes": "Submitted application online",
+      "link": "https://jobs.apple.com/en-us/job333",
+      "location": "Cupertino, CA",
+      "contact": {
+        "name": "Mark Chen",
+        "email": "mark.chen@apple.com",
+        "phone": "555-567-8901"
+      }
+    },
+    {
+      "id": "8",
+      "company": "Tesla",
+      "position": "Embedded Systems Engineer",
+      "status": "Rejected",
+      "applicationDate": "2025-01-15",
+      "lastUpdated": "2025-01-25",
+      "notes": "Not a good fit for the role",
+      "link": "https://www.tesla.com/careers/job444",
+      "location": "Austin, TX",
+      "contact": {
+        "name": "Laura White",
+        "email": "laura.white@tesla.com",
+        "phone": "555-678-9012"
+      }
+    },
+    {
+      "id": "9",
+      "company": "Uber",
+      "position": "Mobile Developer",
+      "status": "Offer",
+      "applicationDate": "2025-02-03",
+      "lastUpdated": "2025-02-16",
+      "notes": "Received offer, considering options",
+      "link": "https://www.uber.com/careers/job555",
+      "location": "San Francisco, CA",
+      "contact": {
+        "name": "Daniel Martinez",
+        "email": "daniel.martinez@uber.com",
+        "phone": "555-789-0123"
+      }
+    },
+    {
+      "id": "10",
+      "company": "Slack",
+      "position": "Security Engineer",
+      "status": "Applied",
+      "applicationDate": "2025-02-14",
+      "lastUpdated": "2025-02-15",
+      "notes": "Submitted resume via company portal",
+      "link": "https://slack.com/careers/job666",
+      "location": "Remote",
+      "contact": {
+        "name": "Sophia Brown",
+        "email": "sophia.brown@slack.com",
+        "phone": "555-890-1234"
+      }
+    },
+    {
+      "id": "9e5f",
+      "company": "Bristol",
+      "position": "Software Engineer ",
+      "status": "Applied",
+      "applicationDate": "2025-02-24",
+      "notes": ""
+    }
+  ]
+}
