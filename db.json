@@ -4,7 +4,7 @@
       "id": "2",
       "company": "Microsoft",
       "position": "Frontend Developer",
-      "status": "applied",
+      "status": "Offer",
       "applicationDate": "2025-02-05",
       "lastUpdated": "2025-02-14",
       "notes": "Had first-round interview, waiting for feedback",
@@ -150,6 +150,14 @@
       "position": "Software Engineer ",
       "status": "Applied",
       "applicationDate": "2025-02-24",
+      "notes": ""
+    },
+    {
+      "id": "5e64",
+      "company": "ILC Consulting ",
+      "position": "Software Engineer II",
+      "status": "Applied",
+      "applicationDate": "2025-04-08",
       "notes": ""
     }
   ]
