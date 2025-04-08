@@ -21,9 +21,10 @@ This is a simple job application tracker that allows you to manage and monitor y
 
 1.  Clone the repository:
 
-    `git clone https://github.com/KaniahDunn/kdd-huntr-replica.git
-cd kdd-huntr-replica
-`
+        `git clone https://github.com/KaniahDunn/kdd-huntr-replica.git
+
+    cd kdd-huntr-replica
+    `
 
 2.  Install the required dependencies:
 

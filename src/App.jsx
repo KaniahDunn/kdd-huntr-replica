@@ -62,7 +62,7 @@ function App() {
   };
 
   return (
-    <div className='container'>
+    <div className="container">
       <div>
         <h1>Job Tracker</h1>
         <Form
@@ -77,15 +77,15 @@ function App() {
           value={filterStatus}
           onChange={(e) => setFilterStatus(e.target.value)}
         >
-          <option value='All'>All</option>
-          <option value='Applied'>Applied</option>
-          <option value='Interview'>Interview</option>
-          <option value='Offer'>Offer</option>
-          <option value='Rejected'>Rejected</option>
-          <option value='Wishlist'>Wishlist</option>
+          <option value="All">All</option>
+          <option value="Applied">Applied</option>
+          <option value="Interview">Interview</option>
+          <option value="Offer">Offer</option>
+          <option value="Rejected">Rejected</option>
+          <option value="Wishlist">Wishlist</option>
         </select>
 
-        <table border='1' cellPadding='8' cellSpacing='0'>
+        <table border="1" cellPadding="8" cellSpacing="0">
           <thead>
             <tr>
               <th>Company</th>
@@ -101,14 +101,14 @@ function App() {
           <tbody>
             {jobs
               .filter(
-                (job) => filterStatus === "All" || job.status === filterStatus
+                (job) => filterStatus === "All" || job.status === filterStatus,
               )
               .map((job) => (
                 <tr key={job.id}>
                   <td>
                     {editingId === job.id ? (
                       <input
-                        type='text'
+                        type="text"
                         value={editedJob.company}
                         onChange={(e) =>
                           setEditedJob({
@@ -124,7 +124,7 @@ function App() {
                   <td>
                     {editingId === job.id ? (
                       <input
-                        type='text'
+                        type="text"
                         value={editedJob.position}
                         onChange={(e) =>
                           setEditedJob({
@@ -145,11 +145,11 @@ function App() {
                           setEditedJob({ ...editedJob, status: e.target.value })
                         }
                       >
-                        <option value='Applied'>Applied</option>
-                        <option value='Interview'>Interview</option>
-                        <option value='Offer'>Offer</option>
-                        <option value='Rejected'>Rejected</option>
-                        <option value='Wishlist'>Wishlist</option>
+                        <option value="Applied">Applied</option>
+                        <option value="Interview">Interview</option>
+                        <option value="Offer">Offer</option>
+                        <option value="Rejected">Rejected</option>
+                        <option value="Wishlist">Wishlist</option>
                       </select>
                     ) : (
                       job.status
@@ -158,7 +158,7 @@ function App() {
                   <td>
                     {editingId === job.id ? (
                       <input
-                        type='date'
+                        type="date"
                         value={editedJob.applicationDate}
                         onChange={(e) =>
                           setEditedJob({
@@ -175,9 +175,9 @@ function App() {
                     {editingId === job.id ? (
                       <>
                         <input
-                          type='text'
+                          type="text"
                           value={editedJob.contact?.name || ""}
-                          placeholder='Name'
+                          placeholder="Name"
                           onChange={(e) =>
                             setEditedJob({
                               ...editedJob,
@@ -189,9 +189,9 @@ function App() {
                           }
                         />
                         <input
-                          type='email'
+                          type="email"
                           value={editedJob.contact?.email || ""}
-                          placeholder='Email'
+                          placeholder="Email"
                           onChange={(e) =>
                             setEditedJob({
                               ...editedJob,
@@ -203,9 +203,9 @@ function App() {
                           }
                         />
                         <input
-                          type='tel'
+                          type="tel"
                           value={editedJob.contact?.phone || ""}
-                          placeholder='Phone'
+                          placeholder="Phone"
                           onChange={(e) =>
                             setEditedJob({
                               ...editedJob,
@@ -232,7 +232,7 @@ function App() {
                   <td>
                     {editingId === job.id ? (
                       <input
-                        type='text'
+                        type="text"
                         value={editedJob.notes}
                         onChange={(e) =>
                           setEditedJob({ ...editedJob, notes: e.target.value })
@@ -256,10 +256,10 @@ function App() {
                       </button>
                     )}
                   </td>
-                  <td className='delete-cell'>
+                  <td className="delete-cell">
                     <FiTrash2
                       onClick={() => handleDelete(job.id)}
-                      className='trash-icon'
+                      className="trash-icon"
                     />
                   </td>
                 </tr>

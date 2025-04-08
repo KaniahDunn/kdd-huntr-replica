@@ -1,20 +1,20 @@
 form input,
 form select {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 8px;
-    border: 1px solid #ccc;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
 
 form button {
-    background-color: #AE8CA3;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    cursor: pointer;
+  background-color: #ae8ca3;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 form button:hover {
-    background-color: #b16399;
+  background-color: #b16399;
 }

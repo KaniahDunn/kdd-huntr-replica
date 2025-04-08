@@ -159,6 +159,14 @@
       "status": "Applied",
       "applicationDate": "2025-04-08",
       "notes": ""
+    },
+    {
+      "id": "ced3",
+      "company": "Henderson Engineering ",
+      "position": "Software Engineer II",
+      "status": "Interview",
+      "applicationDate": "2025-04-05",
+      "notes": "Need to followup "
     }
   ]
 }
