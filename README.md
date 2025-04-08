@@ -3,6 +3,8 @@
 
 This is a simple job application tracker that allows you to manage and monitor your job search. You can add, edit, delete, and filter job applications by their status, such as "Applied," "Interview," "Offer," "Rejected," or "Wishlist."
 
+View the Application live here: https://kaniahdunn.github.io/kdd-huntr-replica/ 
+
 ## Features
 
 - **Add new job applications**: Submit a new job application with details like company, position, status, application date, and contact info.
