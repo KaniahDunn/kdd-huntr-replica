@@ -1,4 +1,5 @@
 # Job Application Tracker
+<img width="1394" alt="job-tracker-application" src="https://github.com/user-attachments/assets/2d894a0e-2d05-4f26-92cf-69f865200933" />
 
 This is a simple job application tracker that allows you to manage and monitor your job search. You can add, edit, delete, and filter job applications by their status, such as "Applied," "Interview," "Offer," "Rejected," or "Wishlist."
 
